@@ -55,6 +55,183 @@ body{
     height: 56px;
     text-align: center;
 }
+.checkOut{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.checkOut h2{
+    font-size: 24px;
+    padding-left: 10px;
+    color:white;
+   
+}
+.animation{
+    background-color: white;
+    height: 259px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.animation h2{
+    font-size: 20px;
+    color: #13183F;
+   
+    padding-right: 214px;
+    padding-left: 28px;
+    margin-top: 54px;
+}
+.animation p{
+    font-size: 16px;
+    color: #83869A;
+    padding-left: 28px;
+}
+.animation footer{
+    font-size: 18px;
+    color: #F74780;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-right: 211px;
+}
+.animation img{
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+.design{
+    background-color: white;
+    height: 259px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.design h2{
+    font-size: 20px;
+    color: #13183F;
+   
+    padding-right: 214px;
+    padding-left: 28px;
+    margin-top: 54px;
+}
+.design p{
+    font-size: 16px;
+    color: #83869A;
+    padding-left: 28px;
+}
+.design footer{
+    font-size: 18px;
+    color: #F74780;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-right: 211px;
+}
+.design img{
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+.photography{
+    background-color: white;
+    height: 259px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.photography h2{
+    font-size: 20px;
+    color: #13183F;
+   
+    padding-right: 214px;
+    padding-left: 28px;
+    margin-top: 54px;
+}
+.photography p{
+    font-size: 16px;
+    color: #83869A;
+    padding-left: 28px;
+}
+.photography footer{
+    font-size: 18px;
+    color: #F74780;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-right: 211px;
+}
+.photography img{
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+.crypto{
+    background-color: white;
+    height: 259px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.crypto h2{
+    font-size: 20px;
+    color: #13183F;
+   
+    padding-right: 214px;
+    padding-left: 28px;
+    margin-top: 54px;
+}
+.crypto p{
+    font-size: 16px;
+    color: #83869A;
+    padding-left: 28px;
+}
+.crypto footer{
+    font-size: 18px;
+    color: #F74780;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-right: 211px;
+}
+.crypto img{
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+.business{
+    background-color: white;
+    height: 259px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.business h2{
+    font-size: 20px;
+    color: #13183F;
+   
+    padding-right: 214px;
+    padding-left: 28px;
+    margin-top: 54px;
+}
+.business p{
+    font-size: 16px;
+    color: #83869A;
+    padding-left: 28px;
+}
+.business footer{
+    font-size: 18px;
+    color: #F74780;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-right: 211px;
+}
+.business img{
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+
 
 @media screen and (max-width: 375px){
     .mainConteiner{ width: 100%;}
