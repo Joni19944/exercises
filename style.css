@@ -1,20 +1,62 @@
+
+
+
+    
 .mainConteiner{
     display: grid;
     box-sizing: border-box;
     width: 375px;
     padding: 16px;
-    background-color: white;
+    background-color: #F2F2F2;
     margin: auto;
-    grid-template-columns: 68.6px 68.6px 68.6px 68.6px 68.6px;
-    grid-template-rows: repeat(20,minmax(0,50px))
+    
     
 }
+
+body{
+    background-color: black;
+}
+.skilledGetStart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .skilled{
-    grid-column: 1/3;
+    font-size: 28px;
+    color: #13183F;
 }
 .getStartedB{
-    grid-column: 4/6;
+    background-color:#13183F;
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    text-align: center;
 }
-body{
-    background-color: #F2F2F2;
+.getStartedB h3{
+    color:white ;
+    font-size: 16px;
+}
+.girlWithCoffee{
+    width: 100%;
+}
+.maximizeSkill{
+    font-size: 40px;
+    color: #13183F;
+}
+.OurModern{
+    font-size: 16px;
+    color:#83869A;
+
+}
+.GetStartedP{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 56px;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    .mainConteiner{ width: 100%;}
+
 }
