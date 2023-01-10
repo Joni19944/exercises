@@ -57,6 +57,7 @@ body{
 }
 .GetStartedP h3{
     text-align: center;
+    padding: 15px ;
 }
 .checkOut{
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -268,5 +269,24 @@ font-size: 16px;
 
 @media screen and (max-width: 375px){
     .mainConteiner{ width: 100%;}
+
+}
+
+@media screen and (min-width: 768px){
+    .mainConteiner{
+        width: 768px;
+        grid-template-columns: 339px 339px;
+        
+        padding: 30px;
+        gap: 10px;
+    }
+    .resp{
+        width: 339px;
+    }
+
+    .likeAFooter{
+        grid-column: 1/ span 2;
+    }
+
 
 }
