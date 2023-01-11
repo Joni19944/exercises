@@ -16,6 +16,13 @@
 body{
     background-color: black;
 }
+
+.girlWithCoffeeT{
+    display: none;
+}
+.girlWithCoffeeD{
+    display: none;
+}
 .skilledGetStart{
     display: flex;
     justify-content: space-between;
@@ -36,7 +43,7 @@ body{
     color:white ;
     font-size: 16px;
 }
-.girlWithCoffee{
+.girlWithCoffee img{
     width: 100%;
 }
 .maximizeSkill{
@@ -286,6 +293,46 @@ font-size: 16px;
 
     .likeAFooter{
         grid-column: 1/ span 2;
+    }
+
+    .girlWithCoffeeM{
+        display: none;
+    }
+    .girlWithCoffeeT{
+        display: inline;
+       
+       
+    }
+    .girlWithCoffeeD{
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1440){
+    .girlWithCoffeeM{
+        display: none;
+    }
+    .girlWithCoffeeT{
+        display: none;
+       
+    }
+    .girlWithCoffeeD{
+        display: inline;
+    }
+    .mainConteiner{
+        width: 1440px;
+        grid-template-columns: 350px 350px 350px;
+        
+        padding: 30px;
+        gap: 10px;
+    }
+    .resp{
+        width: 350px;
+    }
+    .likeAFooter{
+        grid-column: 1/ span 3;
     }
 
 
